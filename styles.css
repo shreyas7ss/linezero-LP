@@ -141,6 +141,17 @@ h1, h2 { font-family: var(--display); letter-spacing: -.055em; }
 .footer-links { display: flex; align-items: center; gap: 20px; }
 .footer-links a { text-decoration: none; }
 .footer-links span { color: #838a80; }
+.footer-wrap { align-items: flex-start; }
+.footer-identity { max-width: 620px; }
+.footer-business { margin: 13px 0 0 46px; color: var(--muted); font-size: 11px; line-height: 1.7; }
+.footer-business strong { color: var(--ink); }
+.footer-links { flex-wrap: wrap; justify-content: flex-end; padding-top: 8px; }
+.inline-link { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+.terms-updated { margin: 14px 0 0; color: #747d70; font-size: 12px; font-weight: 600; }
+.contact-page-details { margin-top: 15px; }
+.contact-page-details address { margin-bottom: 20px; color: #586156; font-size: 14px; font-style: normal; line-height: 1.8; }
+.contact-page-details p { margin-bottom: 7px; }
+.contact-page-cta { margin-top: 19px; }
 
 .policy-main { min-height: calc(100vh - 150px); padding: 58px 0 86px; background: var(--cream); }
 .policy-heading { max-width: 770px; margin: 0 auto; padding: 10px 0 36px; border-bottom: 1px solid var(--line); }
@@ -200,8 +211,9 @@ h1, h2 { font-family: var(--display); letter-spacing: -.055em; }
   .contact-card { grid-template-columns: 1fr; gap: 38px; padding: 34px 25px; }
   .contact-intro h2 { font-size: 34px; }
   .footer-wrap { flex-wrap: wrap; }
-  .footer-wrap > p { order: 3; flex-basis: 100%; }
-  .footer-links { margin-left: auto; gap: 12px; font-size: 10px; }
+  .footer-identity { flex-basis: 100%; }
+  .footer-business { margin-left: 46px; }
+  .footer-links { justify-content: flex-start; margin-left: 46px; gap: 14px; font-size: 10px; }
   .policy-main { padding: 38px 0 65px; }
   .back-link { margin-bottom: 27px; }
   .policy-heading { padding-bottom: 28px; }
