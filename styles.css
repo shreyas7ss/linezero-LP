@@ -134,16 +134,13 @@ h1, h2 { font-family: var(--display); letter-spacing: -.055em; }
 .contact-item a:hover { text-decoration: underline; }
 .site-footer { padding: 26px 0; border-top: 1px solid var(--line); background: var(--paper); }
 .footer-wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.footer-brand .brand-mark { width: 35px; height: 35px; border-radius: 11px; font-size: 12px; }
-.footer-brand .brand-name { font-size: 12px; }
-.footer-brand .brand-name small { font-size: 9px; }
 .footer-wrap > p, .footer-links { margin: 0; color: var(--muted); font-size: 11px; }
 .footer-links { display: flex; align-items: center; gap: 20px; }
 .footer-links a { text-decoration: none; }
 .footer-links span { color: #838a80; }
 .footer-wrap { align-items: flex-start; }
 .footer-identity { max-width: 620px; }
-.footer-business { margin: 13px 0 0 46px; color: var(--muted); font-size: 11px; line-height: 1.7; }
+.footer-business { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
 .footer-business strong { color: var(--ink); }
 .footer-links { flex-wrap: wrap; justify-content: flex-end; padding-top: 8px; }
 .inline-link { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
@@ -212,8 +209,7 @@ h1, h2 { font-family: var(--display); letter-spacing: -.055em; }
   .contact-intro h2 { font-size: 34px; }
   .footer-wrap { flex-wrap: wrap; }
   .footer-identity { flex-basis: 100%; }
-  .footer-business { margin-left: 46px; }
-  .footer-links { justify-content: flex-start; margin-left: 46px; gap: 14px; font-size: 10px; }
+  .footer-links { justify-content: flex-start; gap: 14px; font-size: 10px; }
   .policy-main { padding: 38px 0 65px; }
   .back-link { margin-bottom: 27px; }
   .policy-heading { padding-bottom: 28px; }
@@ -224,7 +220,7 @@ h1, h2 { font-family: var(--display); letter-spacing: -.055em; }
   .button { gap: 12px; padding-inline: 15px; }
   .text-link { font-size: 12px; }
   .service-features { grid-template-columns: 1fr; }
-  .footer-links { flex-basis: 100%; margin-left: 46px; }
+  .footer-links { flex-basis: 100%; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
